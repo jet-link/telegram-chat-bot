@@ -80,9 +80,7 @@ async def handle_text(message: types.Message):
 
 # --- Запуск бота ---
 async def main():
-    print('Starting bot...')
     await dp.start_polling(bot)
-    print('Telegram-bot in work!')
 
 if __name__ == "__main__":
     asyncio.run(main())
